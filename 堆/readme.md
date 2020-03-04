@@ -17,19 +17,19 @@
 
 举一个简单的例子，原始堆如下图，依次需要调整的元素为3、4、5，图中小字标处：
 
-<img src=".\pic\0.png" style="zoom:35%;" />
+<img src=".\pic\0.png" style="zoom:25%;" />
 
 调整3后（虚线显示调整路径），堆如下：
 
-<img src=".\pic\1.png" style="zoom:35%;" />
+<img src=".\pic\1.png" style="zoom:25%;" />
 
 调整4后，堆如下:
 
-<img src=".\pic\2.png" style="zoom:35%;" />
+<img src=".\pic\2.png" style="zoom:25%;" />
 
 调整5后，堆如下：
 
-<img src=".\pic\3.png" style="zoom:35%;" />
+<img src=".\pic\3.png" style="zoom:25%;" />
 
 可以看出，调整的次数就是虚线条数之和，虚线条数的上界为每个节点的高度之和。设堆为满树，高度为h，则第i层高度为$h-i$，根为第0层，第i层节点数为$2^i$ ,故  
 $$
